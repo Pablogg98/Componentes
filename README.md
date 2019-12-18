@@ -1,3 +1,3 @@
-# JavaFXTemplate
+# Componenetes
 
-Plantilla para nuevos proyectos JavaFX con Maven.
+Librería de componentes personalizados para JavaFX.

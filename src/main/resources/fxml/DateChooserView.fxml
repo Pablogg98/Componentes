@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<fx:root type="GridPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox maxWidth="1.7976931348623157E308" spacing="5.0" GridPane.hgrow="ALWAYS">
+         <children>
+            <ComboBox fx:id="dayCB" prefWidth="60.0" />
+            <ComboBox fx:id="monthCB" maxWidth="1.7976931348623157E308" prefWidth="130.0" />
+            <ComboBox fx:id="yearCB" editable="true" maxWidth="1.7976931348623157E308" prefWidth="140.0" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+   <rowConstraints>
+      <RowConstraints maxHeight="1.7976931348623157E308" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+</fx:root>
