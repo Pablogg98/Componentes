@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<fx:root fx:id="view" hgap="5.0" type="GridPane" vgap="5.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <Label fx:id="nomMonth" text="Mes" GridPane.columnSpan="7" GridPane.halignment="CENTER" />
+      <Label text="L" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label text="M" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label text="X" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label text="J" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label text="V" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label text="S" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label text="D" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+      <Label fx:id="pos1" text="Label" GridPane.rowIndex="2" />
+      <Label fx:id="pos2" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label fx:id="pos3" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label fx:id="pos4" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Label fx:id="pos5" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <Label fx:id="pos6" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <Label fx:id="pos7" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+      <Label fx:id="pos8" text="Label" GridPane.rowIndex="3" />
+      <Label fx:id="pos9" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label fx:id="pos10" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Label fx:id="pos11" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Label fx:id="pos12" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <Label fx:id="pos13" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <Label fx:id="pos14" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+      <Label fx:id="pos15" text="Label" GridPane.rowIndex="4" />
+      <Label fx:id="pos16" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label fx:id="pos17" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Label fx:id="pos18" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Label fx:id="pos19" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <Label fx:id="pos20" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <Label fx:id="pos21" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+      <Label fx:id="pos22" text="Label" GridPane.rowIndex="5" />
+      <Label fx:id="pos23" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Label fx:id="pos24" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Label fx:id="pos25" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Label fx:id="pos26" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <Label fx:id="pos27" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <Label fx:id="pos28" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <Label fx:id="pos29" text="Label" GridPane.rowIndex="6" />
+      <Label fx:id="pos30" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Label fx:id="pos31" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <Label fx:id="pos32" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+      <Label fx:id="pos33" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+      <Label fx:id="pos34" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+      <Label fx:id="pos35" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+      <Label fx:id="pos36" text="Label" GridPane.rowIndex="7" />
+      <Label fx:id="pos37" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <Label fx:id="pos38" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+      <Label fx:id="pos39" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+      <Label fx:id="pos40" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+      <Label fx:id="pos41" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+      <Label fx:id="pos42" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="30.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="1.7976931348623157E308" minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+   </rowConstraints>
+</fx:root>
