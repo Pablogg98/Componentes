@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
 
-public class MonthCalendarController extends GridPane implements Initializable {
+public class MonthCalendar extends GridPane implements Initializable {
 
 	// model
 
@@ -28,7 +28,7 @@ public class MonthCalendarController extends GridPane implements Initializable {
 	@FXML
 	private Label nomMonth;
 	
-	public MonthCalendarController() {
+	public MonthCalendar() {
 		super();
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/MonthCalendarView.fxml"));
@@ -44,8 +44,6 @@ public class MonthCalendarController extends GridPane implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		year.addListener((o,ov,nv) -> onCambio(getMonth()));
 		month.addListener((o,ov,nv) -> onCambio(nv));
-		year.set(2050);
-		month.set(0);
 	}
 
 	private void onCambio(Number nv) {
