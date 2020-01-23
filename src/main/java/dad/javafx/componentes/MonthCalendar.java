@@ -47,6 +47,7 @@ public class MonthCalendar extends GridPane implements Initializable {
 		month.addListener((o,ov,nv) -> onCambio(nv));
 		
 		if (LocalDate.now().getYear() == year.get() && LocalDate.now().getMonthValue() == month.get()) {
+			System.out.println("hola");
 			Label lb = new Label();
 			lb = (Label) getChildren().get(Calendar.getInstance().get(Calendar.DAY_OF_WEEK) + 7);
 			lb.getStyleClass().clear();
