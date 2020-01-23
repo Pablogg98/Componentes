@@ -66,10 +66,13 @@ public class MonthCalendar extends GridPane implements Initializable {
 			comienzo++;
 		}
 		
-		if (LocalDate.now().getYear() == year.get() && (LocalDate.now().getMonthValue()-1) == month.get()) {
-			System.out.println("hola");
-			Label lb = new Label();
-			lb = (Label) getChildren().get(Calendar.getInstance().get(Calendar.DAY_OF_MONTH) + 7);
+		Label lb = new Label();
+		lb = (Label) getChildren().get(Calendar.getInstance().get(Calendar.DAY_OF_MONTH) + 9);
+		lb.getStyleClass().clear();
+		int actualMonth = LocalDate.now().getMonthValue();
+		if (LocalDate.now().getYear() == year.get() && actualMonth-1 == month.get()) {
+			lb = new Label();
+			lb = (Label) getChildren().get(Calendar.getInstance().get(Calendar.DAY_OF_MONTH) + 9);
 			lb.getStyleClass().clear();
 			lb.getStyleClass().add("today");
 		}
