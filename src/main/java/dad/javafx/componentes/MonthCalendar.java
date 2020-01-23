@@ -45,14 +45,6 @@ public class MonthCalendar extends GridPane implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		year.addListener((o,ov,nv) -> onCambio(getMonth()));
 		month.addListener((o,ov,nv) -> onCambio(nv));
-		
-		if (LocalDate.now().getYear() == year.get() && LocalDate.now().getMonthValue() == month.get()) {
-			System.out.println("hola");
-			Label lb = new Label();
-			lb = (Label) getChildren().get(Calendar.getInstance().get(Calendar.DAY_OF_WEEK) + 7);
-			lb.getStyleClass().clear();
-			lb.getStyleClass().add("today");
-		}
 	}
 
 	private void onCambio(Number nv) {
@@ -72,6 +64,14 @@ public class MonthCalendar extends GridPane implements Initializable {
 			lb = (Label) getChildren().get(comienzo);
 			lb.setText(""+i);
 			comienzo++;
+		}
+		
+		if (LocalDate.now().getYear() == year.get() && LocalDate.now().getMonthValue() == month.get()) {
+			System.out.println("hola");
+			Label lb = new Label();
+			lb = (Label) getChildren().get(Calendar.getInstance().get(Calendar.DAY_OF_WEEK) + 7);
+			lb.getStyleClass().clear();
+			lb.getStyleClass().add("today");
 		}
 	}
 	
